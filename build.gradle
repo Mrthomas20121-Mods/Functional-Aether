@@ -130,8 +130,14 @@ dependencies {
     implementation fg.deobf('com.github.glitchfiend:TerraBlender-forge:1.20.1-3.0.1.7')
     implementation fg.deobf("curse.maven:aeroblender-879879:4789008")
 
+    // aether gravitation
+    implementation fg.deobf("curse.maven:aether-gravitation-855631:6123604")
     // deep aether
     implementation fg.deobf("curse.maven:deep-aether-852465:5441091")
+    // aether redux
+    implementation fg.deobf("curse.maven:aether-redux-867237:5872671")
+    // gecko lib
+    implementation fg.deobf("curse.maven:geckolib-388172:6027567")
 
     // curio
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curio_version}")
