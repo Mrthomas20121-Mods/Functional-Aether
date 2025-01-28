@@ -1,0 +1,8 @@
+{
+  "parent": "functionalstorage:block/base_x_2",
+  "textures": {
+    "front": "functionalstorage:block/jellyshroom_front_2",
+    "particle": "functionalstorage:block/jellyshroom_front_2",
+    "side": "functionalstorage:block/jellyshroom_side"
+  }
+}

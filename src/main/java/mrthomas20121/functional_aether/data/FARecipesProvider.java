@@ -16,25 +16,21 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.minecraftforge.common.crafting.conditions.ModLoadedCondition;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import java.util.List;
 import java.util.function.Consumer;
 
-public class FARecipesProvider<T extends IModWoodType> extends TitaniumRecipeProvider implements IConditionBuilder {
+public class FARecipesProvider extends TitaniumRecipeProvider implements IConditionBuilder {
 
-    private final List<T> woodTypes;
-
-    public FARecipesProvider(DataGenerator generator, List<T> values) {
+    public FARecipesProvider(DataGenerator generator) {
         super(generator);
-        this.woodTypes = values;
     }
 
     @Override
     public void register(Consumer<FinishedRecipe> consumer) {
-        for(IModWoodType woodType: woodTypes) {
+        for(IModWoodType woodType: FunctionalAether.WOOD_TYPES) {
             for(FunctionalStorage.DrawerType type: FunctionalStorage.DrawerType.values()) {
                 // block name
                 String name = woodType.getName() + "_" + type.getSlots();
-                ResourceLocation blockName = new ResourceLocation(FunctionalStorage.MOD_ID, name);
+                ResourceLocation blockName = new ResourceLocation(FunctionalAether.MOD_ID, name);
                 Block drawer = ForgeRegistries.BLOCKS.getValue(blockName);
 
                 switch (type) {
@@ -47,7 +43,7 @@ public class FARecipesProvider<T extends IModWoodType> extends TitaniumRecipePro
                                     .pattern("PCP")
                                     .pattern("PPP")
                                     .unlockedBy(getHasName(woodType.getPlanks()), has(woodType.getPlanks()))
-                                    .save(c)).build(consumer, new ResourceLocation(FunctionalAether.mod_id, "crafting/"+name));
+                                    .save(c)).build(consumer, new ResourceLocation(FunctionalAether.MOD_ID, "crafting/"+name));
                     case X_2 -> ConditionalRecipe.builder()
                             .addCondition(new ModLoadedCondition(woodType.getModID()))
                             .addRecipe(c -> ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, drawer)
@@ -57,7 +53,7 @@ public class FARecipesProvider<T extends IModWoodType> extends TitaniumRecipePro
                                     .pattern("PPP")
                                     .pattern("PCP")
                                     .unlockedBy(getHasName(woodType.getPlanks()), has(woodType.getPlanks()))
-                                    .save(c)).build(consumer, new ResourceLocation(FunctionalAether.mod_id, "crafting/"+name));
+                                    .save(c)).build(consumer, new ResourceLocation(FunctionalAether.MOD_ID, "crafting/"+name));
                     case X_4 -> ConditionalRecipe.builder()
                             .addCondition(new ModLoadedCondition(woodType.getModID()))
                             .addRecipe(c -> ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, drawer)
@@ -67,7 +63,7 @@ public class FARecipesProvider<T extends IModWoodType> extends TitaniumRecipePro
                                     .pattern("PPP")
                                     .pattern("CPC")
                                     .unlockedBy(getHasName(woodType.getPlanks()), has(woodType.getPlanks()))
-                                    .save(c)).build(consumer, new ResourceLocation(FunctionalAether.mod_id, "crafting/"+name));
+                                    .save(c)).build(consumer, new ResourceLocation(FunctionalAether.MOD_ID, "crafting/"+name));
                 }
 
             }

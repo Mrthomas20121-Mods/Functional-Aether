@@ -5,4 +5,5 @@ import com.buuz135.functionalstorage.util.IWoodType;
 public interface IModWoodType extends IWoodType {
 
     String getModID();
+
 }

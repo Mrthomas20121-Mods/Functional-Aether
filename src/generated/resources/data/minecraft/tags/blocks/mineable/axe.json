@@ -1,0 +1,208 @@
+{
+  "values": [
+    {
+      "id": "functional_aether:skyroot_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:skyroot_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:skyroot_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:highsproot_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:highsproot_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:highsproot_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:sakura_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:sakura_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:sakura_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:fieldsproot_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:fieldsproot_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:fieldsproot_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:blightwillow_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:blightwillow_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:blightwillow_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:cloudcap_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:cloudcap_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:cloudcap_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:jellyshroom_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:jellyshroom_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:jellyshroom_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:crystal_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:crystal_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:crystal_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:glacia_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:glacia_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:glacia_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:conberry_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:conberry_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:conberry_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:cruderoot_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:cruderoot_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:cruderoot_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:roseroot_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:roseroot_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:roseroot_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:sunroot_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:sunroot_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:sunroot_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:yagroot_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:yagroot_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:yagroot_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:aerfin_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:aerfin_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:aerfin_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:beladon_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:beladon_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:beladon_4",
+      "required": false
+    },
+    {
+      "id": "functional_aether:enchanted_1",
+      "required": false
+    },
+    {
+      "id": "functional_aether:enchanted_2",
+      "required": false
+    },
+    {
+      "id": "functional_aether:enchanted_4",
+      "required": false
+    }
+  ]
+}

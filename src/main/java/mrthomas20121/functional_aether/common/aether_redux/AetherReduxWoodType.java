@@ -3,12 +3,9 @@ package mrthomas20121.functional_aether.common.aether_redux;
 import mrthomas20121.functional_aether.api.IModWoodType;
 import net.minecraft.world.level.block.Block;
 import net.zepalesque.redux.api.blockhandler.WoodHandler;
-import net.zepalesque.redux.block.ReduxBlocks;
 import net.zepalesque.redux.blockhandlers.WoodHandlers;
-import teamrazor.deepaether.init.DABlocks;
 
 import java.util.Locale;
-import java.util.function.Supplier;
 
 public enum AetherReduxWoodType implements IModWoodType {
 
@@ -32,7 +29,7 @@ public enum AetherReduxWoodType implements IModWoodType {
 
     @Override
     public Block getPlanks() {
-        return handler.log.get();
+        return handler.planks.get();
     }
 
     @Override
@@ -42,6 +39,6 @@ public enum AetherReduxWoodType implements IModWoodType {
 
     @Override
     public String getModID() {
-        return "deep_aether";
+        return "aether_redux";
     }
 }

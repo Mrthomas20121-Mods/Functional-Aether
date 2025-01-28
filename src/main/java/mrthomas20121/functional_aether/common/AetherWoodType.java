@@ -2,6 +2,7 @@ package mrthomas20121.functional_aether.common;
 
 import com.aetherteam.aether.Aether;
 import com.aetherteam.aether.block.AetherBlocks;
+import com.buuz135.functionalstorage.util.IWoodType;
 import mrthomas20121.functional_aether.api.IModWoodType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;

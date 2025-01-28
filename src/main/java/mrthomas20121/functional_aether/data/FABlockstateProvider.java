@@ -3,6 +3,7 @@ package mrthomas20121.functional_aether.data;
 import com.buuz135.functionalstorage.FunctionalStorage;
 import com.buuz135.functionalstorage.block.*;
 import com.hrznstudio.titanium.block.RotatableBlock;
+import mrthomas20121.functional_aether.FunctionalAether;
 import net.minecraft.core.Direction;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;

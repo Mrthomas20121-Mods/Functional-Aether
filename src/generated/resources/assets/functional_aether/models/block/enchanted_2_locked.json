@@ -1,0 +1,6 @@
+{
+  "parent": "functional_aether:block/enchanted_2",
+  "textures": {
+    "lock_icon": "functionalstorage:block/lock"
+  }
+}

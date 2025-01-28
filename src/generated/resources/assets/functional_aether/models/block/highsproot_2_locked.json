@@ -1,0 +1,6 @@
+{
+  "parent": "functional_aether:block/highsproot_2",
+  "textures": {
+    "lock_icon": "functionalstorage:block/lock"
+  }
+}

@@ -1,7 +1,10 @@
 package mrthomas20121.functional_aether.common.deep_aether;
 
 import mrthomas20121.functional_aether.api.IModWoodType;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import teamrazor.deepaether.datagen.tags.DATags;
 import teamrazor.deepaether.init.DABlocks;
 
 import java.util.Locale;
@@ -11,8 +14,8 @@ public enum DeepAetherWoodType implements IModWoodType {
 
     CONBERRY(DABlocks.CONBERRY_LOG, DABlocks.CONBERRY_PLANKS),
     CRUDEROOT(DABlocks.CRUDEROOT_LOG, DABlocks.CRUDEROOT_PLANKS),
-    SUNROOT(DABlocks.SUNROOT_LOG, DABlocks.SUNROOT_PLANKS),
     ROSEROOT(DABlocks.ROSEROOT_LOG, DABlocks.ROSEROOT_PLANKS),
+    SUNROOT(DABlocks.SUNROOT_LOG, DABlocks.SUNROOT_PLANKS),
     YAGROOT(DABlocks.YAGROOT_LOG, DABlocks.YAGROOT_PLANKS);
 
     private final Supplier<Block> log;

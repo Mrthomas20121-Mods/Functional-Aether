@@ -5,12 +5,12 @@ issueTrackerURL="https://github.com/Mrthomas20121/Functional_TFC/issues"
 
 [[mods]]
 modId="functional_aether"
-version="0.0.4"
+version="0.0.1"
 displayName="Functional Aether"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/functional_aether"
 authors="Mrthomas20121"
 description='''
-Bridge Aether and Functional Storage
+Add Drawers made from Aether materials to Functional Storage
 '''
 
 [[dependencies.functional_aether]] #optional
@@ -21,14 +21,38 @@ Bridge Aether and Functional Storage
     ordering="NONE"
     side="BOTH"
 [[dependencies.functional_aether]]
+    modId="functionalstorage"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="BEFORE"
+    side="BOTH"
+[[dependencies.functional_aether]]
+    modId="titanium"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.functional_aether]]
     modId="aether"
     mandatory=true
     versionRange="[0,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.functional_aether]]
-    modId="functionalstorage"
-    mandatory=true
+    modId="gravitation"
+    mandatory=false
     versionRange="[0,)"
-    ordering="BEFORE"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.functional_aether]]
+    modId="aether_redux"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.functional_aether]]
+    modId="deep_aether"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
     side="BOTH"
